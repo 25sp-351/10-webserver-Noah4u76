@@ -11,6 +11,7 @@
 #include "echo_server.h"
 #include "client_handler.h"
 #include "utils.h"
+#include <sys/stat.h>
 
 // Global variables
 int server_socket = -1;
